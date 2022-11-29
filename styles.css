@@ -13,7 +13,7 @@ body{
     background: rgba(20,20,20,1);
 }
 .uno {
-    background: linear-gradient( rgba(255,155,53,0.4) 0%, rgba(20,20,20,0.4) 95%), url('img/tabla-comida2.jpg')
+    background: radial-gradient(circle, rgba(36,34,0,0.742734593837535) 0%, rgba(121,95,9,0.4) 36%), url('img/tabla-comida2.jpg')
     ,url("");
     background-size: cover;
     background-position: center;
