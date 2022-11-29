@@ -1,0 +1,44 @@
+body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+#testimonial {
+  background: #f1f1f1;
+  padding: 2% 0 3% 0;
+  text-align:center;
+
+}
+
+.front {
+  background: url(../img/restaurante5.jpg);
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  background-size:cover
+}
+
+footer {
+  background: url(../img/restaurante4.jpg);
+  background-repeat: no-repeat; 
+  background-position: center center; 
+  background-size:cover
+}
+.colo{
+  border-color: black;
+  background-color: black;
+}
+#header, #testimonial, #info-one, #info-two, #contact{
+  min-height: 120vh;
+  width:100%;
+}
+html, body {
+  scroll-behavior: smooth;
+}
+html:focus-within {
+  scroll-behavior: smooth;
+}

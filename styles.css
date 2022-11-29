@@ -1,0 +1,64 @@
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.textoh1{
+    font-size: 5vw;
+}
+
+body{
+
+    background: rgba(20,20,20,1);
+}
+.uno {
+    background: linear-gradient( rgba(255,155,53,0.4) 0%, rgba(20,20,20,0.4) 95%), url('img/tabla-comida2.jpg')
+    ,url("");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    min-height:100vh;
+    
+}
+
+.dos{
+    color: #fff;
+    min-height:100vh;
+    background: radial-gradient(circle, rgba(31,29,28,1) 8%, rgba(34,34,34,1) 95%);
+    opacity: 0.85;
+}
+
+.tres{
+    color: #fff;
+    min-height:100vh;
+    background: url('img/tabla-comida2.jpg')
+    ,url("");
+    background-size: cover;
+    opacity: 0.75;
+}
+
+.logo {
+    height: 13vh;
+    margin-top: 2%;
+}
+
+.text-description {
+    letter-spacing: 2px;
+    font-family: sans-serif;    
+}
+
+.form-control {
+    color: #fff !important;
+}
+
+a .fab {
+    color: #ffc;
+    font-size: 30px;
+    margin: 0 10px;
+}
+.contenido{ 
+    padding-top: 3%
+}
+
+
